@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSaver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WebSaver</h1>
+
+        <div class="storage-management-section">
+            <button id="exportTabsBtn">Export Tabs</button>
+            <input type="file" id="importTabsInput" accept=".json" style="display:none;">
+            <button id="importTabsBtn">Import Tabs</button>
+        </div>
+        
+        <div class="save-tab-section">
+            <h2>Save Current Tab</h2>
+            <input type="text" id="websiteTitle" placeholder="Website Title (auto-filled)">
+            <textarea id="websiteNotes" placeholder="Add your notes..." rows="4"></textarea>
+            <input type="text" id="websiteTags" placeholder="Add tags (comma-separated)">
+            <button id="saveTabBtn">Save Tab</button>
+        </div>
+
+        <div class="search-filter-section">
+            <input type="text" id="filterTagsInput" placeholder="Filter by tags (comma-separated)">
+        </div>
+
+        <div class="saved-tabs-section">
+            <h2>Saved Tabs</h2>
+            <div id="savedTabsList"></div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
