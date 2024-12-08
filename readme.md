@@ -14,13 +14,13 @@ WebSaver is a Chrome extension that allows you to save, tag, and organize your b
 
 ## Installation
 
-### Manual Installation\
+### Manual Installation
 
 1. Clone this repository
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode"
 4. Click "Load unpacked"
-5. Select the `websaver-extension` directory
+5. Select the `WebSaver` directory
 
 ## Development
 
