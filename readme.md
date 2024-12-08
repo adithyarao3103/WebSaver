@@ -2,13 +2,14 @@
 
 ## Overview
 
-WebSaver is a Chrome extension that allows you to save, tag, and organize your browser tabs with accompanying notes.
+WebSaver is a Chrome extension that allows you to save, tag, and organize your browser tabs with accompanying notes. It is completely offline and runs locally, and therefore does not compromise your data.
 
 ## Features
 
 - Save current tab with custom title
 - Add notes to saved tabs
 - Tag your saved tabs
+- Import/Export saved tabs
 - View and manage saved tabs
 - Delete saved tabs
 
