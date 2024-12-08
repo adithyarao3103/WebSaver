@@ -6,7 +6,6 @@ WebSaver is a Chrome extension that allows you to save, tag, and organize your b
 
 ## Features
 
-
 | Screenshot 1 | Screenshot 2 |
 |------------|------------|
 | ![alt text](image.png) | ![alt text](image-1.png) |
@@ -14,6 +13,7 @@ WebSaver is a Chrome extension that allows you to save, tag, and organize your b
 - Save current tab with custom title
 - Add notes to saved tabs
 - Tag your saved tabs
+- Filter saved tabs by tag
 - Import/Export saved tabs
 - View and manage saved tabs
 - Delete saved tabs
@@ -27,6 +27,12 @@ WebSaver is a Chrome extension that allows you to save, tag, and organize your b
 3. Enable "Developer mode"
 4. Click "Load unpacked"
 5. Select the `WebSaver` directory
+
+## Usage
+
+From the extensions menu, click on the extension name to open the WebSaver popup.
+
+Alternatively, you can pin the WebSaver extension to your toolbar for quick access.
 
 ## Development
 
